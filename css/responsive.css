@@ -7,11 +7,15 @@
 
 @media (max-width:768px) {
  .container {
-    width: 768px;
+    max-width: 768px;
  }
 }
 
 @media (max-width:480px) {
+
+    .container{
+        max-width: 480px;
+    }
 
     .lesson .col, .steps .col, .why-us .col {
         width: 100%;
