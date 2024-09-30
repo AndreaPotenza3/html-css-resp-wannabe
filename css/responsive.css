@@ -1,5 +1,35 @@
+.container {
+    max-width: 1140px;
+    width: 100%;
+}
+
+
+
 @media (max-width:768px) {
  .container {
     width: 768px;
  }
+}
+
+@media (max-width:480px) {
+
+    .lesson .col, .steps .col, .why-us .col {
+        width: 100%;
+        
+    }
+
+    .row {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+    
+    .why-us {
+        background-color: black;
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
 }
